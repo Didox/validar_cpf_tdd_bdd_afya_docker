@@ -191,6 +191,8 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+cliente.spec.js.mp4
+
 # Windows shortcuts
 *.lnk
 
