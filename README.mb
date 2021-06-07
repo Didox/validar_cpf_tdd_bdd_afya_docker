@@ -1,0 +1,35 @@
+# build imagem docker
+``` shell
+docker build . -t didox/validar_cpf_afya_turma1
+```
+
+# run imagem docker
+``` shell
+docker run -p 80:3000 --name validar_cpf_afya_turma1 -d didox/validar_cpf_afya_turma1
+```
+
+# listar containers rodando
+``` shell
+docker ps
+```
+
+# parar container
+``` shell
+docker stop validar_cpf_afya_turma1
+```
+
+# Rodar container
+``` shell
+docker start validar_cpf_afya_turma1
+```
+
+# logar no docker
+``` shell
+docker login
+```
+
+# publicar imagem
+``` shell
+docker push validar_cpf_afya_turma1
+```
+

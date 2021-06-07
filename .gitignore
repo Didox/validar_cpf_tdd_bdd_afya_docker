@@ -26,6 +26,8 @@
 # Icon must end with two \r
 Icon
 
+cypress/videos/
+
 
 # Thumbnails
 ._*
